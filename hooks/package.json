@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "hooks",
-  "version": "1.0.0",
+  "name": "@vkbo/hooks",
+  "version": "0.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
