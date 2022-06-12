@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@vkbo/hooks",
   "version": "0.0.1",
   "scripts": {
