@@ -42,5 +42,20 @@
     "umiVersion": "3.5.26",
     "bigfishVersion": "null"
   },
-  "tmpDeps": {}
+  "tmpDeps": {
+    "ahooks": "3.4.1",
+    "nanoid": "4.0.0",
+    "react": "17.0.2",
+    "/Users/zhaobo/Documents/zhaobo_workspace/@vkbo/hooks/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray": "7.12.5",
+    "antd/es/button": "4.21.0",
+    "antd/es/button/style": "4.21.0",
+    "antd/es/col": "4.21.0",
+    "antd/es/col/style": "4.21.0",
+    "antd/es/input": "4.21.0",
+    "antd/es/input/style": "4.21.0",
+    "antd/es/space": "4.21.0",
+    "antd/es/space/style": "4.21.0",
+    "antd/es/row": "4.21.0",
+    "antd/es/row/style": "4.21.0"
+  }
 }
