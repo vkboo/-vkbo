@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'hooks';
+import { Foo } from '@vkbo/hooks';
 
 export default () => <Foo title="First Demo" />;
 ```
