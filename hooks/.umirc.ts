@@ -12,4 +12,15 @@ export default defineConfig({
       output: '/.mfsu-development/',
     },
   },
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+      'antd',
+    ],
+  ]
 });
