@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@vkbo/components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
