@@ -1,1 +1,1 @@
-export { default as useTabsSocket } from './hooks/useTabsSocket';
+export { default as useTabsSocket } from './useTabsSocket';
