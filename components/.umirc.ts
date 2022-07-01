@@ -8,7 +8,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   base: '/-vkbo',
-  publicPath: '/-vkbo/components/docs-dist',
+  publicPath: '/-vkbo/components/docs-dist/',
   extraBabelPlugins: [
     [
       'import',
