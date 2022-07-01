@@ -4,22 +4,12 @@ order: 1
 
 # Text
 
-## API
-```typescript
-const [data, setData] = useTabsSocket(key: string);
-```
+Dealing with the undefined/null display problem of character variables.
 
-### Result
-| Property            | Description                                                                                      | Type                                         |
-| ------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| data                | Data sent from other tabs                                                                        | `any`                                        |
-| setData             | Send data to other tabs                                                                          | `any`                                        |
+## Props
 
-
-### Params
-| Property            | Description                                                                                      | Type                                         |
-| ------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| key                 | Socket ID, only the tabs between the same ID can respond to each other's messages.               | `string`                                     |
+<API src="../../src/Text/index.tsx" hideTitle></API>
 
 ## Examples
-<code src="./demos/Text"></code>
+
+<code src="./demos/Text"/>
