@@ -12,7 +12,8 @@
   
 
 ### In Progress
-
+- [ ] Others
+  - [ ] 在3个lib的index.md中，直接引导文档list的链接
 
 ### Done ✓
 
