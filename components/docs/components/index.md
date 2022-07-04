@@ -8,3 +8,4 @@ nav:
 ---
 
 - [Text](/components/text)
+- [AddableSecton](/components/addable-section)
