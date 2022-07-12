@@ -8,3 +8,4 @@ nav:
 ---
 
 - [useTabSocket](/hooks/use-tabs-socket)
+- [useClientCacheState](/hooks/use-client-cache-state)
