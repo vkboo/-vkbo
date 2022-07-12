@@ -1,7 +1,6 @@
 import React from 'react';
-import { useMount, useUpdate } from 'ahooks';
-import request from 'umi-request';
-import { Spin, Row, Col, Space, Typography, Button } from 'antd';
+import { useUpdate } from 'ahooks';
+import { Row, Col, Space, Typography, Button } from 'antd';
 import { useClientCacheState } from '@vkbo/hooks';
 
 export default () => {
