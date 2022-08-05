@@ -3,5 +3,5 @@ export { default as AddableSection } from './AddableSection';
 export {
     default as withKeepAlive,
     reactActivation,
-    IglooAliveScope,
+    NodeAliveScope,
 } from './keepAlive';

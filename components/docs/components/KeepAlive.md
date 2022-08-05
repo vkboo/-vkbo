@@ -6,7 +6,7 @@ order: 3
 
 The secondary encapsulation of [react-activation](https://github.com/CJY0208/react-activation) makes it realize the caching function of React Project.
 
-## IglooAliveScope
+## NodeAliveScope
 It is consistent with `AliveScope` of `react-activation`. Configured to realize routing page-level caching.
 
 | Property            | Description                                                                                      | Type                                         | Default              |
@@ -47,7 +47,7 @@ The methods/components available in functional components in `react-activation` 
 import { FC } from 'react';
 import { useModel, useDispatch } from 'umi';
 import { CurrencyContext, LocaleProvider } from 'iglooform';
-import { IglooAliveScope, reactActivation } from 'igloo-transit-tools';
+import { NodeAliveScope, reactActivation } from '@vkbo/components';
 import { IntlProvider } from 'react-intl';
 import { locales } from '@/locales';
 
@@ -60,7 +60,7 @@ const Layout: FC = ({ children }) => {
         >
             <LocaleProvider currentLang={currentLang}>
                 <CurrencyContext.Provider value={{ exchange, exchangeBack }}>
-                     <IglooAliveScope
+                     <NodeAliveScope
                         type="custom"
                         routes={[
                         ['/policy', '/policy/detail'],
@@ -79,7 +79,7 @@ const Layout: FC = ({ children }) => {
                         }}
                     >
                         {children}
-                    </IglooAliveScope>
+                    </NodeAliveScope>
                 </CurrencyContext.Provider>
             </LocaleProvider>
         </IntlProvider>
@@ -94,7 +94,7 @@ export default Layout;
 
 import { FC } from 'react';
 import { useModel, useDispatch } from 'umi';
-import { withKeepAlive, reactActivation } from 'igloo-transit-tools';
+import { withKeepAlive, reactActivation } from '@vkbo/components';
 
 const { useActivate, } = reactActivation;
 

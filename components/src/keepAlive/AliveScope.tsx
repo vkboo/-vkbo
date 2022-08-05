@@ -3,7 +3,7 @@ import { AliveScope } from 'react-activation';
 import useKeepAlive from './useKeepAlive';
 import type { IParams } from './useKeepAlive';
 
-const IglooAliveScope: FC<IParams> = ({ children, ...rest }) => {
+const NodeAliveScope: FC<IParams> = ({ children, ...rest }) => {
   return (
     <AliveScope>
       <Container {...rest}>{children}</Container>
@@ -11,7 +11,7 @@ const IglooAliveScope: FC<IParams> = ({ children, ...rest }) => {
   );
 };
 
-export default IglooAliveScope;
+export default NodeAliveScope;
 
 const Container: FC<IParams> = ({ children, type, routes, onCanCache }) => {
   useKeepAlive({

@@ -6,7 +6,7 @@ import KeepAlive, {
   useUnactivate,
   withActivation,
 } from 'react-activation';
-import IglooAliveScope from './AliveScope';
+import NodeAliveScope from './AliveScope';
 
 function withKeepAlive(WrappedComponent: FC<{ [prop: string]: any }>) {
   return (props: Omit<KeepAliveProps, 'children'>) => {
@@ -34,4 +34,4 @@ const reactActivation = {
   withActivation: typeof withActivation;
 };
 
-export { reactActivation, IglooAliveScope };
+export { reactActivation, NodeAliveScope };
