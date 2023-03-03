@@ -1,7 +1,7 @@
 ### Todo
 
 - [ ] Components
-  - [ ] Text
+  - [ ] LeaveConfirm
 
 - [ ] Hooks  
   
